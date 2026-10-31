@@ -4,9 +4,9 @@ local DiscordLink = "https://discord.gg/hQZmkVpq8E"
 
 local Games = {
 
-    [1194478315] = { 
-        name = "School of Chaos MMORPG", 
-        url = "https://raw.githubusercontent.com/your-user/your-repo/main/soc_loader.lua" 
+    [10769552054] = { 
+        name = "Urban Reload", 
+        url = "https://raw.githubusercontent.com/zazahq/Games/refs/heads/main/Urban%20Reload.lua" 
     }
 }
 
@@ -14,8 +14,6 @@ local Games = {
 local Players = game:GetService("Players")
 local StarterGui = game:GetService("StarterGui")
 local LocalPlayer = Players.LocalPlayer
-
--- Use GameId for the whole experience, fall back to PlaceId if GameId is 0
 local CurrentId = game.GameId
 if not CurrentId or CurrentId == 0 then
     CurrentId = game.PlaceId
