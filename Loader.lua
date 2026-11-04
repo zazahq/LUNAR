@@ -7,6 +7,10 @@ local Games = {
     [10769552054] = { 
         name = "Urban Reload", 
         url = "https://raw.githubusercontent.com/zazahq/Games/refs/heads/main/Urban%20Reload.lua" 
+    },
+        [7430288939] = { 
+        name = "Chipeo", 
+        url = "https://raw.githubusercontent.com/zazahq/Games/refs/heads/main/Chipeo" 
     }
 }
 
